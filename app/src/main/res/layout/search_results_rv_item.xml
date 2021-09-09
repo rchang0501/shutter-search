@@ -16,45 +16,42 @@
         >
 
         <TextView
+            android:id="@+id/idTVTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Title"
-            android:id="@+id/idTVTitle"
             android:layout_margin="3dp"
+            android:fontFamily="@font/poppins"
             android:padding="4dp"
-            android:textSize="15sp"
-            android:fontFamily="@font/prompt"
-            android:textStyle="bold"
+            android:text="Title"
             android:textColor="@color/white"
-            />
+            android:textSize="15sp"
+            android:textStyle="bold" />
 
         <TextView
+            android:id="@+id/idTVSnippet"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Snippet"
-            android:id="@+id/idTVSnippet"
             android:layout_margin="3dp"
-            android:fontFamily="@font/prompt"
-            android:padding="4dp"
-            android:textSize="12sp"
+            android:fontFamily="@font/poppins"
             android:maxLines="1"
+            android:padding="4dp"
+            android:text="Snippet"
             android:textAllCaps="false"
             android:textColor="@color/white"
-            />
+            android:textSize="12sp" />
 
         <TextView
+            android:id="@+id/idTVDescription"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Description"
+            android:layout_margin="3dp"
+            android:fontFamily="@font/poppins"
             android:lines="3"
             android:maxLines="3"
-            android:id="@+id/idTVDescription"
-            android:layout_margin="3dp"
-            android:fontFamily="@font/prompt"
             android:padding="4dp"
-            android:textSize="12sp"
+            android:text="Description"
             android:textColor="@color/white"
-            />
+            android:textSize="12sp" />
 
     </LinearLayout>
 </androidx.cardview.widget.CardView>
