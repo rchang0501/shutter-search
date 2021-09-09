@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rchang0501.shutt3rsearch">
+
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_scan_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_scan_logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Shutt3rSearch">
+        <activity
+            android:name="com.rchang0501.shutt3rsearch.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <meta-data
+            android:name="com.google.firebase.ml.vision.DEPENDENCIES"
+            android:value="label" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
