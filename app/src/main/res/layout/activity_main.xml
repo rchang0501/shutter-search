@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    android:background="@drawable/icons_2"
     tools:context=".MainActivity">
 
     <ImageView
@@ -15,44 +15,51 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
         android:padding="40dp"
-        android:src="@drawable/ic_scan_logo" />
+        android:src="@drawable/ic_scan_logo_3" />
 
     <LinearLayout
+        android:id="@+id/idLLButtons"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/image"
-        android:id="@+id/idLLButtons"
-        android:orientation="vertical"
-        android:layout_margin="10dp"
-        >
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical">
 
         <Button
             android:id="@+id/idBtnSnap"
-            android:layout_width="match_parent"
+            android:layout_width="303dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_margin="5dp"
             android:background="@drawable/button_back"
-            android:fontFamily="@font/prompt"
-            android:text="Snap"
+            android:fontFamily="@font/fjalla_one"
+            android:gravity="clip_horizontal|center|clip_vertical"
             android:textAllCaps="false"
             android:textColor="@color/white"
             android:textStyle="bold"
-            app:backgroundTint="@color/purple_200" />
+            app:backgroundTint="@color/purple_500"
+            app:icon="@drawable/ic_capture"
+            app:iconGravity="textStart"
+            app:iconPadding="2dp" />
 
         <Button
             android:id="@+id/idBtnResults"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="303dp"
+            android:layout_height="66dp"
             android:layout_gravity="center"
             android:layout_margin="5dp"
             android:background="@drawable/button_back"
-            android:fontFamily="@font/prompt"
-            android:text="Get Search Results"
+            android:fontFamily="@font/fjalla_one"
             android:textAllCaps="false"
-            android:textStyle="bold"
             android:textColor="@color/white"
-            app:backgroundTint="@color/purple_200" />
+            android:textStyle="bold"
+            app:backgroundTint="@color/purple_500"
+            app:icon="@drawable/ic_baseline_image_search_24"
+            app:iconGravity="top"
+            app:iconPadding="4dp" />
 
     </LinearLayout>
 

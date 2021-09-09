@@ -4,7 +4,7 @@
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     app:cardElevation="7dp"
-    app:cardBackgroundColor="@color/blue_3"
+    app:cardBackgroundColor="@color/purple_200"
     android:layout_margin="5dp"
     app:cardCornerRadius="4dp"
     >
@@ -53,7 +53,6 @@
             android:fontFamily="@font/prompt"
             android:padding="4dp"
             android:textSize="12sp"
-            android:textStyle="bold"
             android:textColor="@color/white"
             />
 

@@ -5,10 +5,13 @@
       <map>
         <entry key="..\:/Users/ryanc/AndroidStudioProjects/shutt3rsearch/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1935185185185185" />
         <entry key="..\:/Users/ryanc/AndroidStudioProjects/shutt3rsearch/app/src/main/res/drawable/button_back.xml" value="0.2520833333333333" />
+        <entry key="..\:/Users/ryanc/AndroidStudioProjects/shutt3rsearch/app/src/main/res/drawable/ic_capture.xml" value="0.2520833333333333" />
+        <entry key="..\:/Users/ryanc/AndroidStudioProjects/shutt3rsearch/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2520833333333333" />
         <entry key="..\:/Users/ryanc/AndroidStudioProjects/shutt3rsearch/app/src/main/res/drawable/ic_scan_logo.xml" value="0.1935185185185185" />
         <entry key="..\:/Users/ryanc/AndroidStudioProjects/shutt3rsearch/app/src/main/res/drawable/ic_scan_logo_2.xml" value="0.1935185185185185" />
+        <entry key="..\:/Users/ryanc/AndroidStudioProjects/shutt3rsearch/app/src/main/res/drawable/ic_scan_logo_4.xml" value="0.2520833333333333" />
         <entry key="..\:/Users/ryanc/AndroidStudioProjects/shutt3rsearch/app/src/main/res/drawable/scan_logo.xml" value="0.16895999484375016" />
-        <entry key="..\:/Users/ryanc/AndroidStudioProjects/shutt3rsearch/app/src/main/res/layout/activity_main.xml" value="0.19199999414062519" />
+        <entry key="..\:/Users/ryanc/AndroidStudioProjects/shutt3rsearch/app/src/main/res/layout/activity_main.xml" value="0.25343999226562525" />
         <entry key="..\:/Users/ryanc/AndroidStudioProjects/shutt3rsearch/app/src/main/res/layout/search_results_rv_item.xml" value="0.2359375" />
       </map>
     </option>
