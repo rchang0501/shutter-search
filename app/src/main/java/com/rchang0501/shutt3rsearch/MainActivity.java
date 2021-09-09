@@ -136,6 +136,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    // test
     private void getSearchResults(String searchQuery){
         String url = "https://serpapi.com/search.json?q=" + searchQuery + "&location=Toronto,Canada&hl=en&gl=us&google_domain=google.com&engine=google&api_key=c36e9315228ea86ea1607a523b5050e63f7aab8c34566a02770d5434e6849913";
         RequestQueue queue = Volley.newRequestQueue(MainActivity.this);
