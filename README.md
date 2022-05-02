@@ -1,6 +1,6 @@
 # Shutter Search
 
-Shutter Search is a Machine Learning Image Recognition Camera App built for Android. It can recognize and provide google search results of the image taken using the Firebase ML Kit.
+Machine learning image recognition camera app built for Android that identifies the image using the Firebase ML Kit and provides search results of the identified image using the Google Search API, SerpAPI
 
 ## Usage Guide 
 
